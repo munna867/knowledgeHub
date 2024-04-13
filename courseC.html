@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>knowledgeHub-Online Course Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+    <!--header section start here-->
+    <div>
+        <!-------------------Navigation sidebar part---------------->
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="home.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-user-group"></i>About us</a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-book-open"></i>Courses</a> </li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone"></i>ContactUs</a> </li>
+                <hr>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+
+            </ul>
+            <!---------------------Navigation part-------------------->
+            <ul>
+                <li><img id="image" src="images/logo1.jpg" alt="logo"></li>
+                <li class="hideOnMobile"><a href="home.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li class="hideOnMobile"><a href="about.html"><i class="fa-solid fa-user-group"></i>About us</a></li>
+                <li class="hideOnMobile"><a href="courses.html"><i class="fa-solid fa-book-open"></i>Courses</a></li>
+                <li class="hideOnMobile"><a href="contact.html"><i class="fa-solid fa-phone"></i>ContactUs</a> </li>
+                <li class="hideOnMobile" id="c1"><a href="login.html">Login</a></li>
+                <li class="hideOnMobile" id="c2"><a href="signup.html">Signup</a> </li>
+                <li class="menubtn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26" viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!--header section end here-->
+
+
+    <div class="head3">
+        <h1>C Programming Courses</h1>
+    </div>
+    <section id="course-inner">
+        <div class="con2">
+            <div class="overview">
+                <img class="course-img" src="images/c1.jpeg" alt="">
+                <div class="course-head">
+                    <div class="c-name">
+                        <h2>C Programming Courses</h2>
+                        <div class="star">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <p>Dive Deep into C: Master data types, control flow, functions, arrays, pointers, strings, file
+                            handling, and dynamic memory allocation. Projects and best practices included for a solid
+                            programming foundation.</p>
+                    </div>
+                    <br>
+                    <span>Free</span>
+                </div>
+                <h3>Instructor</h3>
+                <div class="tutor">
+                    <img src="images/t2.jpg" alt="">
+                    <div class="tutor-det">
+                        <h5>College Wallah</h5>
+                        <p>Programmer,Youtuber</p>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <h3>Course Overview</h3>
+                <p>A C programming course typically covers the fundamentals of the C programming language, which is
+                    widely
+                    used for system and application development. The course begins with basic concepts such as data
+                    types,
+                    variables, operators, and control flow statements. It then progresses to more advanced topics like
+                    arrays, functions, pointers, and memory management. Students learn how to write, compile, debug, and
+                    execute C programs using a variety of development environments and tools. They also learn best
+                    practices
+                    for writing efficient and maintainable code. Throughout the course, emphasis is placed on
+                    problem-solving skills and practical applications, with students working on programming assignments
+                    and
+                    projects to reinforce their learning.</p>
+                <br>
+
+                <div class="enroll">
+                    <h3>This Course include:-</h3>
+                    <p class="hover-effect"><i class="fa-solid fa-video"></i>18 Hours</p>
+                    <p class="hover-effect"><i class="fa-solid fa-infinity"></i>Full Lifetime access</p>
+                    <p class="hover-effect"><i class="fa-solid fa-mobile"></i>Access on Mobile and Laptop</p>
+                    <p class="hover-effect"><i class="fa-solid fa-paperclip"></i>Free Courses</p>
+                    <p class="hover-effect"><i class="fa-solid fa-certificate"></i>Certificate of Completion</p>
+                    <div class="enroll-btn">
+                        <a class="blue" href="enrollC.html">Enroll Course</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <div class="wra1">
+        <div id="courses-videos">
+            <h1 style="text-align: center;">Course Details</h1>
+
+            <div class="course-videos1">
+                <div class="course-iframe">
+                    <iframe src="https://www.youtube.com/embed/i0ovgS-jCQ8?list=PLxgZQoSe9cg2Gz6t22zam4xB_zOisAEmf"
+                        title="C Language Full Course - Part 1 (Beginner to Advance) | 100+ Questions + Notes"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen height="250px" width="600px"></iframe>
+                </div>
+                <div class="info">
+                    <p>
+                        In C programming, variables store data, operators perform actions on data, and input/output
+                        functions manage communication with users or devices. Variables have types like int or float,
+                        operators include arithmetic and logical operators, and functions like scanf() and printf()
+                        handle
+                        input and output operations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="course-videos1">
+                <div class="course-iframe">
+                    <iframe src="https://www.youtube.com/embed/qmkCmfLJENU?list=PLxgZQoSe9cg2Gz6t22zam4xB_zOisAEmf"
+                        title="Complete C Language in One Shot - Part 2 | 100+ Questions  + Notes #collegewallah"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen height="250px" width="300px"></iframe>
+                </div>
+                <div class="info">
+                    <p>
+                        In this course, you'll dive into the fundamentals of C, starting with the importance of
+                        functions
+                        for writing organized and reusable code. You'll explore the fascinating world of recursion for
+                        problem-solving, learn to efficiently manage data using arrays, and master 2D-arrays for
+                        structured
+                        data. Additionally, you'll discover essential string manipulation techniques, how to create and
+                        use
+                        structures for complex data, and the memory-saving benefits of unions. Join us on this journey
+                        to
+                        become proficient in C programming!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="Certificate-button">
+            <a href="https://forms.gle/hNpuazAXDmpnjx827">Give Your Test</a>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-info">
+            <div class="footer-width about">
+                <h2>About</h2>
+                <p>Whether you want to learn a new skill, train your teams, or share what you know with the world,
+                    you’re in the right place. As a leader in online learning, we’re here to help you achieve your goals
+                    and transform your life</p>
+                <div class="social-media">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-width link">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+
+                    <li><a href="contact.html">ContactUs</a></li>
+                </ul>
+            </div>
+            <div class="footer-width contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li><span> <i class="fa-solid fa-map-location-dot"></i></span>
+                        <p>
+                            Block D-III,Polt No. 1,Near Mahadev Mandir, Chikhali , Pune Maharashtra-411062
+                        </p>
+                    </li>
+
+                    <li class="f6"><span><i class="fa-solid fa-envelope"></i></span>
+                        <a href="">knowledgeHub0100@gmail.com</a>
+                    </li>
+
+                    <li class="f6"><span><i class="fa-solid fa-phone"></i></span>
+                        <a href="">000 0000 000 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>@ COPYRIGHT 2024 knowledgeHub ALL RIGHT RESERVED</p>
+        </div>
+    </footer>
+
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
